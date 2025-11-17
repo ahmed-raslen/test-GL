@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clavier.css">
+    <title>clavier</title>
+</head>
+<body>
+    <form name="clavier" action="clavier.html" method="POST" id="form">
+    <input type="text" name="text" id="text-box">
+    <div class="bcg">
+        <div class="clavier-border">
+            <div class="container">
+                <div class="ligne1">
+                    <div>
+                        <input type="button" value="esc" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f1" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f2" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f3" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f4" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f5" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f6" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f7" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f8" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f9" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f10" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="f11" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="scroll" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="pause" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="insert" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="delete" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="home" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="pg up" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="pg end" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="end" class="btn1" onclick="form.text.value+=''">
+                    </div>
+                </div>
+    
+    
+                <div class="ligne2">
+                    <div>
+                        <input type="button" value="⁓   '" class="btn2-l2" onclick="form.text.value+='⁓'">
+                    </div>
+                    <div>
+                        <input type="button" value="!   1" class="btn2-l2" onclick="form.text.value+='!'">
+                    </div>
+                    <div>
+                        <input type="button" value="@   2" class="btn2-l2" onclick="form.text.value+='@'">
+                    </div>
+                    <div>
+                        <input type="button" value="#   3" class="btn2-l2" onclick="form.text.value+='#'">
+                    </div>
+                    <div>
+                        <input type="button" value="$   4" class="btn2-l2" onclick="form.text.value+='$'">
+                    </div>
+                    <div>
+                        <input type="button" value="%   5" class="btn2-l2" onclick="form.text.value+='%'">
+                    </div>
+                    <div>
+                        <input type="button" value="^   6" class="btn2-l2" onclick="form.text.value+='^'">
+                    </div>
+                    <div>
+                        <input type="button" value="&   7" class="btn2-l2" onclick="form.text.value+='&'">
+                    </div>
+                    <div>
+                        <input type="button" value="*   8" class="btn2-l2" onclick="form.text.value+='*'">
+                    </div>
+                    <div>
+                        <input type="button" value="(   9" class="btn2-l2" onclick="form.text.value+='('">
+                    </div>
+                    <div>
+                        <input type="button" value=")   0" class="btn2-l2" onclick="form.text.value+=')'">
+                    </div>
+                    <div>
+                        <input type="button" value="-   —" class="btn2-l2" onclick="form.text.value+='—'">
+                    </div>
+                    <div>
+                        <input type="button" value="±   =" class="btn2-l2" onclick="form.text.value+='='">
+                    </div>
+                    <div>
+                        <input type="button" value="⇐ sup"  id="b-sp" onclick="form.text.value=form.text.value.substring(0,form.text.value.length*1-1)">
+                    </div>
+                    <div>
+                        <input type="button" value="Num-on" class="btn2-l2" id="nb" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="/" class="btn2-l2"  id="nb-slash"onclick="form.text.value+='/'">
+                    </div>
+                    <div>
+                        <input type="button" value="*" class="btn2-l2" id="nb-x" onclick="form.text.value+='*'">
+                    </div>
+                    <div>
+                        <input type="button" value="-" class="btn2-l2" id="nb-" onclick="form.text.value+='-'">
+                    </div>
+                </div>
+    
+            <div class="l3-l4">
+                <div class="ligne3">
+                    <div>
+                        <input type="button" value="Tab ⇄" class="btn3-l3" onclick="form.text.value+='       '">
+                    </div>
+                    <div>
+                        <input type="button" value="A" class="btn3-l3" onclick="form.text.value+='a'">
+                    </div>
+                    <div>
+                        <input type="button" value="Z" class="btn3-l3" onclick="form.text.value+='z'">
+                    </div>
+                    <div>
+                        <input type="button" value="E" class="btn3-l3" onclick="form.text.value+='e'">
+                    </div>
+                    <div>
+                        <input type="button" value="R" class="btn3-l3" onclick="form.text.value+='r'">
+                    </div>
+                    <div>
+                        <input type="button" value="T" class="btn3-l3" onclick="form.text.value+='t'">
+                    </div>
+                    <div>
+                        <input type="button" value="Y" class="btn3-l3" onclick="form.text.value+='y'">
+                    </div>
+                    <div>
+                        <input type="button" value="U" class="btn3-l3" onclick="form.text.value+='u'">
+                    </div>
+                    <div>
+                        <input type="button" value="I" class="btn3-l3" onclick="form.text.value+='i'">
+                    </div>
+                    <div>
+                        <input type="button" value="O" class="btn3-l3" onclick="form.text.value+='o'">
+                    </div>
+                    <div>
+                        <input type="button" value="P" class="btn3-l3" onclick="form.text.value+='p'">
+                    </div>
+                    <div>
+                        <input type="button" value="^" class="btn3-l3" onclick="form.text.value+='^'">
+                    </div>
+                    <div>
+                        <input type="button" value="£" class="btn3-l3" onclick="form.text.value+='£'">
+                    </div>
+                    <div>
+                        <input type="button" value="Enter  ↲"  id="E-btn">
+                    </div>
+                    <div>
+                        <input type="button" value="7" class="btn3-l3" onclick="form.text.value+='7'">
+                    </div>
+                    <div>
+                        <input type="button" value="8" class="btn3-l3" onclick="form.text.value+='8'">
+                    </div>
+                    <div>
+                        <input type="button" value="9" class="btn3-l3" onclick="form.text.value+='9'">
+                    </div>
+                    <div>
+                        <input type="button" value="+" id="btn-plus" onclick="form.text.value+='+'">
+                    </div>
+                </div>
+    
+    
+                <div class="ligne4">
+                    <div>
+                        <input type="button" value="Caps-lock ⇫" id="btn-shift" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="Q" class="btn4-l4" onclick="form.text.value+='q'">
+                    </div>
+                    <div>
+                        <input type="button" value="S" class="btn4-l4" onclick="form.text.value+='s'">
+                    </div>
+                    <div>
+                        <input type="button" value="D" class="btn4-l4" onclick="form.text.value+='d'">
+                    </div>
+                    <div>
+                        <input type="button" value="F" class="btn4-l4" onclick="form.text.value+='f'">
+                    </div>
+                    <div>
+                        <input type="button" value="G" class="btn4-l4" onclick="form.text.value+='g'">
+                    </div>
+                    <div>
+                        <input type="button" value="H" class="btn4-l4" onclick="form.text.value+='h'">
+                    </div>
+                    <div>
+                        <input type="button" value="J" class="btn4-l4" onclick="form.text.value+='j'">
+                    </div>
+                    <div>
+                        <input type="button" value="K" class="btn4-l4" onclick="form.text.value+='k'">
+                    </div>
+                    <div>
+                        <input type="button" value="L" class="btn4-l4" onclick="form.text.value+='l'">
+                    </div>
+                    <div>
+                        <input type="button" value="M" class="btn4-l4" onclick="form.text.value+='m'">
+                    </div>
+                    <div>
+                        <input type="button" value="%" class="btn4-l4" onclick="form.text.value+='%'">
+                    </div>
+                    <div>
+                        <input type="button" value="µ  \" class="btn4-l4" onclick="form.text.value+='µ'">
+                    </div>
+                    <div>
+                        <input type="button" value=">" id="aaa" onclick="form.text.value+='>'">
+                    </div>
+                    <div id="prob">
+                        <input type="button" value="  "  id="E-btn2" >
+                        <div id="E-btn3"></div>
+                    </div>
+                    <div>
+                        <input type="button" value="4" class="btn4-l4" id="nb4" onclick="form.text.value+='4'">
+                    </div>
+                    <div>
+                        <input type="button" value="5" class="btn4-l4" id="nb5" onclick="form.text.value+='5'">
+                    </div>
+                    <div>
+                        <input type="button" value="6" class="btn4-l4" id="nb6" onclick="form.text.value+='6'">
+                    </div>
+                </div>
+            </div>
+            <div class="l5-l6">
+                <div class="ligne5">
+                    <div>
+                        <input type="button" value="Shift  ⇫" class="btn5-l5" id="mini-shift" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value=">  <" class="btn5-l5" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="W" class="btn5-l5" onclick="form.text.value+='w'">
+                    </div>
+                    <div>
+                        <input type="button" value="X" class="btn5-l5" onclick="form.text.value+='x'">
+                    </div>
+                    <div>
+                        <input type="button" value="C" class="btn5-l5" onclick="form.text.value+='c'">
+                    </div>
+                    <div>
+                        <input type="button" value="V" class="btn5-l5" onclick="form.text.value+='v'">
+                    </div>
+                    <div>
+                        <input type="button" value="B" class="btn5-l5" onclick="form.text.value+='b'">
+                    </div>
+                    <div>
+                        <input type="button" value="N" class="btn5-l5" onclick="form.text.value+='n'">
+                    </div>
+                    <div>
+                        <input type="button" value="?" class="btn5-l5" onclick="form.text.value+='?'">
+                    </div>
+                    <div>
+                        <input type="button" value=";" class="btn5-l5" onclick="form.text.value+=';'">
+                    </div>
+                    <div>
+                        <input type="button" value=":" class="btn5-l5" onclick="form.text.value+=':'">
+                    </div>
+                    <div>
+                        <input type="button" value="!" class="btn5-l5" onclick="form.text.value+='!'">
+                    </div>
+                    <div>
+                        <input type="button" value="               ⇫"  id="shift">
+                    </div>
+                    <div>
+                        <input type="button" value="3" class="btn5-l5" id="nb3" onclick="form.text.value+='3'">
+                    </div>
+                    <div>
+                        <input type="button" value="2" class="btn5-l5" id ="nb2" onclick="form.text.value+='2'">
+                    </div>
+                    <div>
+                        <input type="button" value="1" class="btn5-l5" id="nb1" onclick="form.text.value+='1'">
+                    </div>
+                    <div>
+                        <input type="button" value="entrée" id="btn-entrée" onclick="form.text.value+=''">
+                    </div>
+                </div>
+    
+    
+                <div class="ligne6">
+                    <div>
+                        <input type="button" value="Ctrl" class="btn4-l4" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="Fn" class="btn4-l4" onclick="form.text.value+=''">
+                    </div>
+                    <div class="windows" >
+                        <img src="Windows2.png" alt="" height="32" width="30"> 
+                    </div>
+                    <div>
+                        <input type="button" value="alt" class="btn4-l4" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="" class="btn4-l4" id="space-btn" onclick="form.text.value+='  '">
+                    </div>
+                    <div>
+                        <input type="button" value="AltGr" class="btn4-l4" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="Crtl" class="btn4-l4" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="←" class="btn4-l4" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="↑" id="up-down" onclick="form.text.value+=''"><br>
+                        <input type="button" value="↓" id="up-down" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="→" class="btn4-l4" onclick="form.text.value+=''">
+                    </div>
+                    <div>
+                        <input type="button" value="0" class="btn4-l4" id="nb0" onclick="form.text.value+='0'">
+                    </div>
+                    <div>
+                        <input type="button" value="." class="btn4-l4" id="nb-point" onclick="form.text.value+='.'">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
