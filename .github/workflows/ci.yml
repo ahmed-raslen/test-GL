@@ -1,4 +1,4 @@
-name: CI- HTML Validation
+name: CI - HTML Validation
  on:
  push:
 branches: [ main ]
